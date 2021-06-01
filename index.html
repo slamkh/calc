@@ -12,91 +12,37 @@
         <h1>Calculator?</h1>
     </header>
 
-    <table>
-        <tr>
-            <td>
-                <input class="display" type="text" name="display" >
-            </td>
-        </tr>
-        <tr>
-            <table>
-                <tr>
-                     <td>
-                         <input type="button" value="AC">
-                     </td>
-                     <td>
-                         <input type="button" value="+/-">
-                     </td>
-                     <td>
-                         <input type="button" value="%">
-                     </td>
-                     <td>
-                         <input type="button" value="/">
-                     </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="button" value="7">
-                    </td>
-                    <td>
-                        <input type="button" value="8">
-                    </td>
-                    <td>
-                        <input type="button" value="9">
-                    </td>
-                    <td>
-                        <input type="button" value="*">
-                    </td>
-               </tr>
-               <tr>
-                     <td>
-                         <input type="button" value="4">
-                     </td>
-                     <td>
-                         <input type="button" value="5">
-                     </td>
-                     <td>
-                         <input type="button" value="6">
-                     </td>
-                     <td>
-                         <input type="button" value="-">
-                     </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="button" value="1">
-                    </td>
-                    <td>
-                        <input type="button" value="2">
-                    </td>
-                    <td>
-                        <input type="button" value="3">
-                    </td>
-                    <td>
-                        <input type="button" value="+">
-                    </td>
-               </tr>
-               <tr>
-                    <td colspan="2">
-                        <input type="button" value="0">
-                    </td>
-                    <td>
-                        <input type="button" value=",">
-                    </td>
-                    <td>
-                        <input type="button" value="=">
-                    </td>
-               </tr>
-            </table>
-        </tr>
+    <div class="calc">
 
+        <input type="text" class="display" disabled>
 
-
-
-
-
-    </table>
-
+        <div class="row">
+            <button value="7">7</button>
+            <button value="8">8</button>
+            <button value="9">9</button>
+            <button value="+" class="operator">+</button>
+        </div>
+        <div class="row">
+            <button value="4">4</button>
+            <button value="5">5</button>
+            <button value="6">6</button>
+            <button value="-" class="operator">-</button>
+        </div>
+        <div class="row">
+            <button value="1">1</button>
+            <button value="2">2</button>
+            <button value="3">3</button>
+            <button value="*" class="operator">*</button>
+        </div>
+        <div class="row">
+            <button value="C" class="operator">C</button>
+            <button value="0">0</button>
+            <button value="=" class="operator">=</button>
+            <button value="÷" class="operator">÷</button>
+        </div>
+            
+    </div>
+    
     <footer>
     </footer>
 
