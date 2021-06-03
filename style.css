@@ -43,3 +43,12 @@ button {
     background-color: rgb(243, 162, 60);
     color: #000;
 }  
+
+#history{
+    width: 25%;
+    height: 300px;
+    border: none;
+    box-sizing: border-box;
+    position: absolute;
+    bottom:20px;
+}
